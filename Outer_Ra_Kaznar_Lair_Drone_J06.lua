@@ -5,8 +5,8 @@ Description="Auto Cast Stone",
 Version="0.1"};
 
 function s()
-local m={"Dimensional Tether"};for i,v in pairs(m)do 
-if(t()==nil)or(t()~=v)then AshitaCore:GetDataModule():SendCommand('/target ' .. 17899798,0);
+local m={"Dimensional Tether"};for i,v in pairs(m)do if(t()==nil)or(t()~=v)then 
+AshitaCore:GetDataModule():SendCommand('/target ' .. 17899798,0);
 elseif(t()==v)then AshitaCore:GetDataModule():SendCommand('/ma Stone <t>',1);end end end
 
 function t()
@@ -25,5 +25,5 @@ timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end
 
 return Outer_Ra_Kaznar_Lair_Drone_J06;
 
--- In game command to get targeted mob's ID.
+-- In game command to get targeted mob's ID for changing.
 -- /luacast dostring "print(AshitaCore:GetDataModule():GetTarget():GetTargetWindow().Entity.ID);"

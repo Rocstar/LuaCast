@@ -27,5 +27,5 @@ timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end
 
 return Outer_Ra_Kaznar_Colonization_Drone_J10;
 
--- In game command to get targeted mob's ID
+-- In game command to get targeted mob's ID.
 -- /luacast dostring "print(AshitaCore:GetDataModule():GetTarget():GetTargetWindow().Entity.ID);"

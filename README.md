@@ -6,6 +6,6 @@ LRDMBFI07.lua = Lair Reive Drone Morimar Basalt Fields I-7
 CRDORJ10.lua = Colonization Reive Drone Outer Ra'Kaznar J-10 
 Commands
 =======
-/unload luacast 
+/unload luacast  
 /load luacast 
 /luacast load LRDORJ06 

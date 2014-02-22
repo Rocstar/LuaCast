@@ -17,10 +17,10 @@ function c(nMode, text)
 if(string.Contains(text,'has joined the'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
 elseif(string.Contains(text,'is victorious'))then timer.RemoveTimer('s');end end
 
-function LRDORJ06:OnLoad()
+function Outer_Ra_Kaznar_Lair_Drone_J06:OnLoad()
 timer.Create("s",3.1,0,s);events.Add("onHandleNewChatLine","plugin_c_event",c);end
 
-function LRDORJ06:OnUnload()
+function Outer_Ra_Kaznar_Lair_Drone_J06:OnUnload()
 timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end 
 
 return Outer_Ra_Kaznar_Lair_Drone_J06;

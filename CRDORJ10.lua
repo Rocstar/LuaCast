@@ -24,7 +24,7 @@ if(ta.Entity~=nil)then return ta.Entity.Name;else return nil;end end
 -- Chat Line
 function C(nMode, text)
 if(string.Contains(text,'has joined the'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
-elseif(string.Contains(text,'is victorious'))then timer.RemoveTimer('s');end  end
+elseif(string.Contains(text,'is victorious'))then timer.RemoveTimer('s');end end
 
 -- On Load
 function CRDORJ10:OnLoad()

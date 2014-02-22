@@ -5,8 +5,8 @@ Description="Auto Cast Stone",
 Version="0.1"};
 
 function s()
-local m={"Grimy Boulders"};for i,v in pairs(m)do 
-if(t()==nil)or(t()~=v)then AshitaCore:GetDataModule():SendCommand('/target ' .. 17863179,0);
+local m={"Grimy Boulders"};for i,v in pairs(m)do if(t()==nil)or(t()~=v)then
+AshitaCore:GetDataModule():SendCommand('/target ' .. 17863179,0);
 elseif(t()==v)then AshitaCore:GetDataModule():SendCommand('/ma Stone <t>',1);end end end
 
 function t()

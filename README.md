@@ -7,7 +7,7 @@ Commands
 /load luacast
 
 /luacast load LRDORJ06
-
+=======
 LRDORJ06.lua = Lair Reive Drone Outer Ra'Kaznar J-6
 
 LRDMRC07.lua = Lair Reive Drone Marjami Ravine C-7

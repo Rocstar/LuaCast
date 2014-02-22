@@ -1,5 +1,5 @@
 Outer_Ra_Kaznar_Colonization_Drone_J10={
-Name="Colonization Reive Drone Outer Ra'Kaznar J-10",
+Name="Outer Ra'Kaznar Colonization Drone J-10",
 Author="Rockstar",
 Description="Auto Cast Stone",
 Version="0.1"};
@@ -27,5 +27,5 @@ timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end
 
 return Outer_Ra_Kaznar_Colonization_Drone_J10;
 
--- In game command to get targeted mob's ID for changing.
+-- In game command to get targeted mob's ID.
 -- /luacast dostring "print(AshitaCore:GetDataModule():GetTarget():GetTargetWindow().Entity.ID);"

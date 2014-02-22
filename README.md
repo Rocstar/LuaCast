@@ -1,4 +1,3 @@
-LuaCast Plugins
 Commands
 =======
 
@@ -7,7 +6,7 @@ Commands
 /load luacast
 
 /luacast load LRDORJ06
-
+Files
 =======
 LRDORJ06.lua = Lair Reive Drone Outer Ra'Kaznar J-6
 

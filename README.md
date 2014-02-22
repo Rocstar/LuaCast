@@ -4,4 +4,4 @@ Commands
 =======
 /unload luacast  
 /load luacast  
-/luacast load Outer_Ra_Kaznar_Lair_Drone_J06
+/luacast load Outer_Ra_Kaznar_Lair_J06

@@ -14,11 +14,11 @@ local ta=AshitaCore:GetDataModule():GetTarget():GetTargetWindow();
 if(ta.Entity~=nil)then return ta.Entity.Name;else return nil;end end
 
 function c(nMode, text)
-if(string.Contains(text,'has joined the'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
-elseif(string.Contains(text,'is victorious'))then timer.RemoveTimer('s');end end
+if(string.Contains(text,'joined'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
+elseif(string.Contains(text,'victorious'))then timer.RemoveTimer('s');end end
 
 function Marjami_Ravine_Lair_C07:OnLoad()
-timer.Create("s",3.1,0,s);events.Add("onHandleNewChatLine","plugin_c_event",c);end
+events.Add("onHandleNewChatLine","plugin_c_event",c);end
 
 function Marjami_Ravine_Lair_C07:OnUnload()
 timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end 

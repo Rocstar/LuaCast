@@ -25,5 +25,5 @@ timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end
 
 return Morimar_Basalt_Fields_Lair_Drone_I07;
 
--- In game command to get targeted mob's ID
+-- In game command to get targeted mob's ID.
 -- /luacast dostring "print(AshitaCore:GetDataModule():GetTarget():GetTargetWindow().Entity.ID);"

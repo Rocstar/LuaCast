@@ -1,5 +1,7 @@
 LuaCast
 =======
-LRDORJ06 = Lair Reive Drone Outer Ra'Kaznar J-6
+LRDORJ06.lua = Lair Reive Drone Outer Ra'Kaznar J-6
 
-CRDORJ10 = Colonization Reive Drone Outer Ra'Kaznar J-10
+LRDMBFI07.lua = Lair Reive Drone Morimar Basalt Fields I-7
+
+CRDORJ10.lua = Colonization Reive Drone Outer Ra'Kaznar J-10

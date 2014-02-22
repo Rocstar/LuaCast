@@ -1,4 +1,4 @@
-LuaCast
+LuaCast Plugins
 =======
 LRDORJ06.lua = Lair Reive Drone Outer Ra'Kaznar J-6
 

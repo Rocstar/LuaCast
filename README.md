@@ -1,6 +1,6 @@
 LuaCast Plugins
-=======
 Commands
+=======
 
 /unload luacast
 

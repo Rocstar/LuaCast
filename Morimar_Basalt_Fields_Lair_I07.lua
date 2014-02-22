@@ -1,4 +1,4 @@
-Morimar_Basalt_Fields_Lair_Drone_I07={
+Morimar_Basalt_Fields_Lair_I07={
 Name="Morimar Basalt Fields Lair Drone I-7",
 Author="Rockstar",
 Description="Auto Cast Stone",
@@ -17,13 +17,13 @@ function c(nMode, text)
 if(string.Contains(text,'has joined the'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
 elseif(string.Contains(text,'is victorious'))then timer.RemoveTimer('s');end end
 
-function Morimar_Basalt_Fields_Lair_Drone_I07:OnLoad()
+function Morimar_Basalt_Fields_Lair_I07:OnLoad()
 timer.Create("s",3.1,0,s);events.Add("onHandleNewChatLine","plugin_c_event",c);end
 
-function Morimar_Basalt_Fields_Lair_Drone_I07:OnUnload()
+function Morimar_Basalt_Fields_Lair_I07:OnUnload()
 timer.RemoveTimer('s');events.Remove("onHandleNewChatLine","plugin_c_event");end 
 
-return Morimar_Basalt_Fields_Lair_Drone_I07;
+return Morimar_Basalt_Fields_Lair_I07;
 
 -- In game command to get targeted mob's ID.
 -- /luacast dostring "print(AshitaCore:GetDataModule():GetTarget():GetTargetWindow().Entity.ID);"

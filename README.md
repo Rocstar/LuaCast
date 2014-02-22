@@ -7,5 +7,5 @@ CRDORJ10.lua = Colonization Reive Drone Outer Ra'Kaznar J-10
 Commands
 =======
 /unload luacast  
-/load luacast 
+/load luacast  
 /luacast load LRDORJ06 

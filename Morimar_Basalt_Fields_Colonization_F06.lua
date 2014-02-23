@@ -16,20 +16,8 @@ local ta=AshitaCore:GetDataModule():GetTarget():GetTargetWindow();
 if(ta.Entity~=nil)then return ta.Entity.Name;else return nil;end end
 
 function c(nMode, text)
-if(string.Contains(text,'victorious'))then
-timer.RemoveTimer('s');
-elseif(string.Contains(text,'joined'))then
-timer.RemoveTimer('s');timer.Create("s",3.1,0,s);
-elseif (string.Contains(text,'shard I.'))then 
-AshitaCore:GetDataModule():SendCommand('/item "A. Ygg. Shard I" <me>',1);
-elseif (string.Contains(text,'shard II.'))then 
-AshitaCore:GetDataModule():SendCommand('/item "A. Ygg. Shard II" <me>',1);
-elseif (string.Contains(text,'shard III.'))then 
-AshitaCore:GetDataModule():SendCommand('/item "A. Ygg. Shard III" <me>',1);
-elseif (string.Contains(text,'shard IV.'))then 
-AshitaCore:GetDataModule():SendCommand('/item "A. Ygg. Shard IV" <me>',1);
-elseif (string.Contains(text,'shard V.'))then 
-AshitaCore:GetDataModule():SendCommand('/item "A. Ygg. Shard V" <me>',1);end end
+if(string.Contains(text,'victorious'))then timer.RemoveTimer('s');
+elseif(string.Contains(text,'joined'))then timer.RemoveTimer('s');timer.Create("s",3.1,0,s);end end
 
 function Morimar_Basalt_Fields_Colonization_F06:OnLoad()
 events.Add("onHandleNewChatLine","plugin_c_event",c);end

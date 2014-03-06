@@ -1,4 +1,4 @@
-Cast={Name="cast",Author="Rockstar",Description="Auto Cast Stone",Version="0.1"};
+cast={Name="cast",Author="Rockstar",Description="Auto Cast Stone",Version="0.1"};
 
 function s()local m={"Breathless Clansman","Shambling Naraka","Dismal Djinn","Effluvial Acuex","Acrimonious Dullahan",
 "Kantankerous Yztarg","","","","","","","","","","","","","","","",""};

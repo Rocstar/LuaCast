@@ -1,7 +1,6 @@
 cast={Name="cast",Author="Rockstar",Description="Auto Cast Stone",Version="0.1"};
 
-function s()local m={"Breathless Clansman","Shambling Naraka","Dismal Djinn","Effluvial Acuex","Acrimonious Dullahan",
-"Kantankerous Yztarg","","","","","","","","","","","","","","","",""};
+function s()local m={"Breathless Clansman","Shambling Naraka","Dismal Djinn","Effluvial Acuex","Acrimonious Dullahan"};
 for i,v in pairs(m)do if(t()==nil)or(t()~=v)then AshitaCore:GetDataModule():SendCommand('/target <bt>',1);
 elseif(t()==v)then AshitaCore:GetDataModule():SendCommand('/ma Stone <t>',1);end end end
 
